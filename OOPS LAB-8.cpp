@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+
+// class dm to receive distance in meter and centimeter
 class DM
 {
 public:
@@ -20,14 +22,14 @@ public:
             meters++; 
         }
     }
-
+   // A Display Function to display distance in meter and centimeter
     void display()
     {
         cout<<"Meters: "<<meters<<endl;
         cout<<"Centimeters: "<<centimeters<<endl;
     }
 };
-
+// class dm to receive distance in feet and inches
 class DB
 {
 public:
